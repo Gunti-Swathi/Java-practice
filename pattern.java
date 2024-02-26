@@ -4,7 +4,7 @@ public class pattern{
             System.out.println("Hello" +i);
             
             
-            i+=2;
+            i+=4;
             
         }
     }
