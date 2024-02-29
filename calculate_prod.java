@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class calculate_prod{
     public static int product(int a, int b){
         int result = a*b;

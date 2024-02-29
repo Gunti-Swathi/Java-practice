@@ -44,8 +44,10 @@ public class Sum_fun{
     Scanner sc = new Scanner(System.in);
     int a=sc.nextInt();
     int b=sc.nextInt();
-    int result = sum(a,b);
-    System.out.println(result);
+   //  int result = sum(a,b);
+   //  System.out.println(result);
+    //or
+    System.out.println(sum(a,b));
    }
         
 
