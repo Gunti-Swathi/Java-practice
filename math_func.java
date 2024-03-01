@@ -11,6 +11,9 @@ public class math_func{
         System.out.println(Math.pow(a,b));
         // System.out.println(Math.avg(a,b));
         System.out.println(Math.abs(a));
+        System.out.println(Math.sqrt(b));
+
+        
 
 
 
