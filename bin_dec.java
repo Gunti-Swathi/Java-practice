@@ -9,9 +9,10 @@ public class bin_dec{
         
         int num = a%10;
         // double calc = num *   Math.pow(2,c);
-        int calc = num * (int) Math.pow(2,c);
+        // int calc = num * (int) Math.pow(2,c);
         
-        sum = sum + calc;
+        // sum = sum + calc;
+        sum = sum + num *(int) Math.pow(2,c);
         a = a/10;
         c++;}
         return sum;
