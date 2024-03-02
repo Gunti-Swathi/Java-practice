@@ -4,7 +4,7 @@ public class perfect_square{
         boolean is_perfect = false;
         int q =38;
         int prod =1;
-        for(int i =2;i <=Math.sqrt(q);i++){
+        for(int i =2;i <=q/2;i++){
             prod = i*i;
             if(q == prod){
                  is_perfect = true;

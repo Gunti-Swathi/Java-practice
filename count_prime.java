@@ -28,7 +28,7 @@ public class count_prime{
             // boolean result = check(i);
             // if (result == true){
                 if(check(i)){
-                count++;
+                    count++;
                
             }
 
