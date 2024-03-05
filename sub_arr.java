@@ -1,3 +1,4 @@
+//Brute force method to find max and min sub arrays
 import java.util.*;
 public class sub_arr{
     public static void calculate(int a[]){
@@ -9,7 +10,9 @@ public class sub_arr{
         for(int i =0;i<a.length;i++){
             for(int j =i;j<a.length;j++){
                 for(int k =i;k<=j;k++){
+                    //printing sub arrays
                 System.out.print(a[k]);
+                //calculating sum of sub arrays
                 sum = sum+a[k];
                 
                 
@@ -18,9 +21,11 @@ public class sub_arr{
                 total++;
                 System.out.println();
                 System.out.println("SUM IS:"+sum);
+                // finding max sum;
                 if(sum >maxsum){
                     maxsum =sum;
                 }
+                //finding min sum;
                 if(sum<minsum){
                     minsum=sum;
                 }
@@ -41,7 +46,7 @@ public class sub_arr{
         System.out.println("count: "+total);
     }
     public static void main(String args[]){
-        int arr[] ={1,2,3,5,6}; 
+        int arr[] ={1,-2,6,-1,3}; 
         calculate(arr);
     }
 }
